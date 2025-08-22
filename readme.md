@@ -31,10 +31,10 @@ The automation pipeline is structured to facilitate collaborative development an
 ## 📂 Project Structure
 
 job-automation-suite/
-├── **scraper.py** --> 🕷️ Scrapes job listings and saves them to jobs.csv
-├── **apply_bot.py** --> 🤖 Reads jobs.csv and simulates applying to jobs
-├── **main.py** --> 🧑💻 Orchestrates the entire workflow (scrape + apply)
-└── **jobs.csv** -->  📄 Shared CSV file to transfer job data between components
+#### ├── **scraper.py** --> 🕷️ Scrapes job listings and saves them to jobs.csv
+#### ├── **apply_bot.py** --> 🤖 Reads jobs.csv and simulates applying to jobs
+#### ├── **main.py** --> 🧑💻 Orchestrates the entire workflow (scrape + apply)
+#### └── **jobs.csv** -->  📄 Shared CSV file to transfer job data between components
 
 
 ---
@@ -130,5 +130,5 @@ Contributions, bug reports, and feature requests are welcome via repository issu
 
 ---
 
-*This documentation provides a clear and friendly guide for users and collaborators to understand, set up, run, and extend the Job Automation Suite efficiently.*
+
 
